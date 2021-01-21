@@ -1,0 +1,4 @@
+==== Anotações HTML ====
+transform = rotate(deg); - Rodar algo
+display: inline-block; - Da para usar para alinhar texto
+hover: ativar quando passa por cima do elemento
