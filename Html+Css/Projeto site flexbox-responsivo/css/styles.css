@@ -8,7 +8,7 @@ h2{
 }
 
 #navbar{
-    background-color: #ED1E24;
+    background-color:#1B7ABD;
     color: #FFF;
     padding: 0 15px;
     height: 60px;
@@ -50,5 +50,41 @@ h2{
 
 #navbar-list li a:hover{
     border-bottom: 1px solid #FFF;
+
+}
+
+/*Banner*/
+#main-banner {
+    height: 78vh;
+    background-image: url('../img/backgroundEdit.png');
+    background-position: left;
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+#banner-info img {
+    border-radius: 50%;
+    background-color: #1B7ABD;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p{
+    background-color: #1B7ABD;
+    font-weight: bold;
+    width: 200px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
