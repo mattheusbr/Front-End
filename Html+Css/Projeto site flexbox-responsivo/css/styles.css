@@ -88,3 +88,31 @@ h2{
     margin-right: auto;
 
 }
+
+/* Sobre */
+#about-section {
+    text-align: center;
+    background-color: #1B7ABD;
+    color: white;
+    padding-top: 50px;
+    height: 350px;    
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#autor {
+    font-style: italic;
+    font-size: small;
+    line-height: 0px;
+
+}
