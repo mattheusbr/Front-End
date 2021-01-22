@@ -88,6 +88,7 @@ h2{
     margin-right: auto;
 
 }
+/* Fim Banner*/
 
 /* Sobre */
 #about-section {
@@ -114,5 +115,79 @@ h2{
     font-style: italic;
     font-size: small;
     line-height: 0px;
+}
+/*Fim Sobre */
+
+/* Skills */
+#skills-section {
+    margin-top: -100px;
+    background-color: white;
+    width: 80%;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+}
+
+@media only screen and (max-width: 812px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+.skills-container {
+    flex: 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.borda {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+@media only screen and (max-width: 812px) {
+    .borda{
+        border-top: 1px solid #DDD;
+        border-bottom: 1px solid #DDD;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+.skills-container h3 {
+    color: #1B7ABD;
+    font-size: 20px; 
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    border: 1px solid #1B7ABD;
+    box-shadow: 5px 6px #1B7ABD;
+    margin-bottom: 25px;    
+}
+
+.subtitle {
+    color: #1B7ABD;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skills-container a {
+    text-decoration: none;
+    color: black;    
+}
+
+.skills-container a:hover {
+    border-bottom: 1px solid #1B7ABD;
 
 }
