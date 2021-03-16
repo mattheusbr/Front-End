@@ -139,7 +139,24 @@ h2{
     .container{
         flex-direction: column;
     }
+
+    .borda{
+        border-top: 1px solid #DDD;
+        border-bottom: 1px solid #DDD;
+        border-left: none;
+        border-right: none;
+    }
     
+    .job-container{
+        flex-direction: column; 
+        margin-bottom: 0; 
+      }
+  
+      .job-box{
+          margin-bottom: 2rem;
+          flex: 1 1 300px;
+      }
+
 }
 
 .skills-container {
@@ -151,15 +168,6 @@ h2{
 .borda {
     border-left: 1px solid #DDD;
     border-right: 1px solid #DDD;
-}
-
-@media only screen and (max-width: 812px) {
-    .borda{
-        border-top: 1px solid #DDD;
-        border-bottom: 1px solid #DDD;
-        border-left: none;
-        border-right: none;
-    }
 }
 
 .skills-container h3 {
@@ -324,3 +332,94 @@ footer .detail {
     font-weight:bold;
     cursor:pointer;
 }
+/* Modal */
+
+/* Resposivo para mobile */
+@media(max-width: 450px){
+
+    p, input, textarea, #navbar-list li a {
+        font-size: 1.2rem;
+    }
+    
+    #navbar h2 {
+        display: none;
+    }
+
+    #navbar img {
+        top: 9px;
+    }
+
+    #navbar ul {
+        margin-top: 1.1rem;
+    }
+
+    /* Banner */
+    #main-banner {
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 30vh;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info p {
+        margin: 0;
+        width: auto;
+    }
+    /* Banner */
+
+    /*Sobre*/
+    #about-section{
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    /*Sobre*/
+
+    /*Skills */
+        #skills-section{
+            margin-top: -33px;
+        }
+
+        .skills-container h3, .skills-container .subtitle{
+           font-size: 1.3rem; 
+        }
+
+        .skills-container {
+            padding: 25px;
+        }
+    /*Skills */
+
+    /* fotos trabalhos*/
+    .job-container{
+      flex-direction: column; 
+      margin-bottom: 0; 
+    }
+
+    .job-box{
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    #jobs-section h2, #jobs-section p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* fotos trabalhos */
+
+    /*rodapé*/
+    footer{
+        padding: 50px 15px;
+    }
+
+    footer form {
+        width: 100%;
+    } 
+    /*rodapé*/
+}
+
+
